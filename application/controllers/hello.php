@@ -1,10 +1,11 @@
 <?php
 
-class hello extends C1_controller {
+class hello extends CI_Controller {
+
     public function index()
     {
-        $data('nama') = "Triono";
-        $this->load->view('hello_view',$data);
+        $data['nama'] = "Gina";
+        $this->load->view('hello_view', $data);
     }
     
 }

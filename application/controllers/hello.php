@@ -2,9 +2,15 @@
 
 class hello extends CI_Controller {
 
-    Public function index()
-    {
-        $data['nama'] = "Triono";
-        $this->load->view('hello_view', $data);
-    }
+  public function index()
+{
+  $data['nama'] = "Haechan";
+  $this->load->view('hello',$data);
+}
+public function namasaya()
+{
+  $data['nama'] = "Ginaaaa";
+  $this->load->view('hello',$data);
+}
+
 }
